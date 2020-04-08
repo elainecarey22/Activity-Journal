@@ -11,7 +11,7 @@ export class ActivityListComponent implements OnInit {
 
   activities: IActivity[];
   totalActivities: number
-  totalDistance: number
+  totalDistance: string
   firstDate: Date
 
   constructor(private _activityService: ActivityService) { }

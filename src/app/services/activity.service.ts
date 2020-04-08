@@ -21,8 +21,9 @@ export class ActivityService {
     var totalDistance = 0;
     for(var i = 0; i < allActivities.length; i ++) {
       totalDistance += allActivities[i].distance;
-    }
-    return totalDistance;
+      var roundedDistance = totalDistance.toFixed(2);
+    } 
+    return roundedDistance;
   }
   getFirstDate(allActivities: IActivity[]) {
     var earliestDate = new Date("01/01/9999");

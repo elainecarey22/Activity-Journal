@@ -2,6 +2,14 @@ import { IActivity } from './activity.model'
 
 export const SAVED_ACTIVITIES: IActivity[] = [
     {
+        "id" : 5,
+        "name" : "First long hike!",
+        "date" : new Date('1/03/2020'),
+        "distance" : 8.12,
+        "comments" : "Maamturks hike with Michelle, Lenny and Will",
+        "gpxData" : '../../assets/gpx/5.gpx',
+    },
+    {
         "id" : 1,
         "name" : "Salthill Prom run",
         "date" : new Date('02/18/2020'),
